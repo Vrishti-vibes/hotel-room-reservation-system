@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.controls {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 6px;
+    width: 150px;
+}
+
+button {
+    padding: 6px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.floor {
+    margin-bottom: 10px;
+}
+
+.room {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin: 4px;
+    text-align: center;
+    line-height: 45px;
+    border: 1px solid #333;
+    font-size: 12px;
+}
+
+.available {
+    background-color: #a7f3a7;
+}
+
+.booked {
+    background-color: #f87171;
+    color: white;
+}
+
+.selected {
+    background-color: #60a5fa;
+    color: white;
+}
+
+#result {
+    margin: 10px 0;
+    font-weight: bold;
+}
